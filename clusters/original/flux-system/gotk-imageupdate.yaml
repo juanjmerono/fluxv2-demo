@@ -15,4 +15,5 @@ spec:
     messageTemplate: '[ci skip] update image'
   interval: 1m0s
   update:
-    setters: {}
+    path: ./deployments
+    strategy: Setters
